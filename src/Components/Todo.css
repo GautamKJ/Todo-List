@@ -1,0 +1,97 @@
+    /* File: src/components/Todo.css */
+    
+    body {
+        background: black;
+        height: 100vh;
+        
+
+      }
+      
+      .todo-container {
+        background: white;
+        width: 40vw;
+        margin: 30px auto;
+        border-radius: 25px;
+        padding: 20px 10px;
+        
+        
+      }
+.task_list{
+    overflow: scroll;
+    height: 40vh;
+    
+}
+      .tasks
+      {
+        margin: 30px;
+        
+        
+        
+        
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        
+      }
+      .left-content{
+        font-weight: bold;
+        color: black;
+      }
+      .left-content, .right-content {
+        float: left;
+        /* You can add additional styling for left and right content here */
+      }
+      
+      .task {
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 16px;
+        
+      }
+      
+      .checkbox{
+        background: rgb(12, 124, 251);
+        border-radius: 5px;
+        margin: 0px 5px;
+        padding: 3px 5px;
+        border: none;
+        cursor: pointer;
+        color: white;
+        float: left;
+      }
+      .btn{
+        background-color: #2F69FE;
+        border: transparent;
+        border-radius: 10px;
+        width: 80%;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        padding: 14px;
+      }
+      
+      .header {
+        margin: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        color: #2F69F3;
+        font-weight: bold;
+
+        background-image: url(https://intellsys-optimizer.b-cdn.net/interviews/978ea909-91ec-49c2-bd69-d494c097d38d/header.jpg);
+        background-size: contain;
+        height: 50vh;
+      }
+      .create-task{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            margin-bottom: 32px;
+      }
+      
+    
+  
